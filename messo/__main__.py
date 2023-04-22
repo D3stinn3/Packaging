@@ -1,6 +1,6 @@
 """Entry Point Script"""
 import sys
-import messo.message as message
+import message
 
 
 message.word("".join(sys.argv[1:]))
