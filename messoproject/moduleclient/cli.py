@@ -2,4 +2,4 @@ import sys
 from messo import message
 
 
-message.word("".join(sys.argv[1:]))
+message.word("niaje")

@@ -2,5 +2,7 @@
 import sys
 from messo import message
 
-
-message.word("".join(sys.argv[1:]))
+def main():
+    message.word("".join(sys.argv[1:]))
+    
+main()
