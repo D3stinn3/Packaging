@@ -4,5 +4,6 @@ from messo import message
 
 def main():
     message.word("".join(sys.argv[1:]))
-    
-main()
+
+if __name__ == "__main__":
+       main()
