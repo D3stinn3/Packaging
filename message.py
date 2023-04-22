@@ -6,9 +6,7 @@ import os
 """Loading Message as Environment variable"""
 load_dotenv()
 
-MESSAGE = r"""Provided by d3$tinn3
-    d3$tinn3 Copyright
-"""
+MESSAGE = os.getenv("MESSAGE")
 
 def bubble(message):
     bubble_length = len(message) * 2
