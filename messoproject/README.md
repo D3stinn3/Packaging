@@ -1,3 +1,3 @@
-# File with heading
+# Entry Point
 
 The Entry Folder
