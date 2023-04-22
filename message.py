@@ -10,7 +10,7 @@ MESSAGE = os.getenv("MESSAGE")
 
 def bubble(message):
     bubble_length = len(message) * 2
-    return f"""{"_" * bubble_length} ({message}) {"-" * bubble_length}"""
+    return f"""{"_" * bubble_length} ({message}) {"_" * bubble_length}"""
 
 def word(message):
     print(bubble(message))
